@@ -1,0 +1,184 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+   body{
+      background:black url(../images/fond/global.png);
+      font: 1rem "Oranienbaum", sans-serif;
+      color: white;
+      
+      
+   }
+
+   a[hreflang="ja"]::after {
+    content: " [en japonais]";
+}
+   
+
+/*------------------------------------------------------------------------------
+   Mise en page
+------------------------------------------------------------------------------*/
+a{
+      color: white;
+      text-decoration: none;
+   }
+
+   a:hover{
+      color: darkorange;
+   }
+
+   header, section{
+      height: 100vh;
+   }
+
+   header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+
+   header a{
+      position: absolute;
+      bottom: 40px;
+      left:50%;
+      transform: translate(-50%,0);
+   
+   }
+
+   h1{
+      font: 6.25rem "Monoton", sans-serif;
+   }
+
+   h2{
+      font: 2rem "Monoton", sans-serif;
+   }
+
+   h2 span{
+      font: 1.0625rem "Oranienbaum", sans-serif;
+      text-transform: lowercase;
+   }
+
+   section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   
+
+/*----------------------------------------------------------------------------
+    Elements
+----------------------------------------------------------------------------*/
+
+   .boite{
+      width: 800px;
+      padding: 48px;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      
+   }
+
+
+   .images{
+      display: flex;
+      gap: 20px;
+      
+   }
+
+   .images img{
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .images a{
+      text-align: center;
+      width: 200px;
+   }
+
+   .web img{
+      width: 50%;
+       
+   }
+
+   .web .images{
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+   }
+
+   .web .boite a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+     
+   } 
+
+   .lien_float{
+      margin-top: 50px;
+      background-color: darkred;
+      padding: 10px;
+   }
+
+   .photos img{
+      width: 30%;
+   }
+
+   .photos .images{
+      display: flex;
+     flex-direction: column;
+      align-items: center;
+   }
+   
+   .photos .boite a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+
+
+/*------------------------------------------------------------------------------
+   Components
+------------------------------------------------------------------------------*/
+
+/* Header */
+
+/* Section Générale */
+
+/* Section sports */
+
+.sports{
+   background-image: url(../images/fond/bicycles.png) fixed;
+   
+}
+
+
+/* Section web */
+
+.web{
+   background-image: url(../images/fond/science.png);
+}
+
+/* Section photographie */
+
+.photos{
+   background: url(../images/fond/fond.jpg) no-repeat top center/cover;
+   
+}
+
+/* Bouton retour */

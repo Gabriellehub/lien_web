@@ -177,7 +177,7 @@ a{
 /* Section photographie */
 
 .photos{
-   background: url(../images/fond/fond.jpg) no-repeat top center/cover;
+   background: url(../images/fond/fond.jpg) no-repeat fixed top center/cover;
    
 }
 

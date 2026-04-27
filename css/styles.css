@@ -163,7 +163,7 @@ a{
 /* Section sports */
 
 .sports{
-   background-image: url(../images/fond/bicycles.png) fixed;
+   background: url(../images/fond/bicycles.png) fixed;
    
 }
 

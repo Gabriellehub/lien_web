@@ -171,7 +171,7 @@ a{
 /* Section web */
 
 .web{
-   background-image: url(../images/fond/science.png);
+   background: url(../images/fond/science.png) fixed;
 }
 
 /* Section photographie */
